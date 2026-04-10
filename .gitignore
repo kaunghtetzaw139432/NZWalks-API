@@ -1,0 +1,11 @@
+# Build results
+[Bb]in/
+[Ob]j/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015/2017/2019/2022 cache icons
+.vs/
