@@ -1,4 +1,6 @@
 # 🚀 NZ Walks API
+![.NET](https://img.shields.io/badge/.NET%208.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Entity Framework Core](https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet) ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)![AutoMapper](https://img.shields.io/badge/Library-AutoMapper-orange?style=for-the-badge)
+
 
 NZ Walks API is a **RESTful Web API** built with **ASP.NET Core 8** to manage walking tracks across New Zealand. This is my **first backend project**, focused on mastering CRUD operations and database relationships.
 
