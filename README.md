@@ -11,6 +11,21 @@ The primary goal of this project was to learn the fundamentals of backend develo
 - **Database:** SQL Server
 - **Architecture:** Standard API Design (Domain Models & DTOs)
 
+  ## 📊 Database Architecture
+
+To manage the walking tracks effectively, I designed a relational database schema that ensures data integrity and supports complex queries. Below is the **Entity Relationship Diagram (ERD)** based on the C# Domain Models:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3848fe89-c571-4e65-b80c-eac8aca9fc31" width="90%" alt="NZ Walks Database ER Diagram" style="border-radius: 10px; border: 1px solid #ddd;">
+</p>
+
+### 🔗 Relationship Logic
+* **Walk & Region:** Each `Walk` belongs to exactly one `Region`, but a `Region` can contain multiple `Walks` (Many-to-One).
+* **Walk & Difficulty:** Each `Walk` is assigned a specific `Difficulty` level (Many-to-One).
+* **Guids:** All primary keys use `Guid` (uniqueidentifier) for global uniqueness, as shown in the C# classes.
+
+---
+
 ## ✨ Key Features
 - **Comprehensive CRUD:** Full Create, Read, Update, and Delete operations for **Regions**, **Difficulties**, and **Walks**.
 - **Complex Relationships:** Implemented **Many-to-One** relationships between Walks and their respective Regions/Difficulties.
